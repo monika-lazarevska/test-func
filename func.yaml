@@ -1,0 +1,9 @@
+specVersion: 0.35.0
+name: test-func
+runtime: node
+registry: docker.io/mlazarevska
+image: docker.io/mlazarevska/test-func:latest
+created: 2023-05-25T08:37:46.865394+02:00
+build:
+  builder: pack
+  pvcSize: 256Mi
